@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Git," />
 
 
 
@@ -87,15 +87,31 @@
 
 
 
-<meta name="description" content="do it">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ryan Site">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Git的基本用法：前言：想了解git可点击这里1.git init把当前的目录变成git仓库（git初始化）   
+2.git add XX把xx文件添加到暂存区多个文件则 git add xx1 xx2 xx3
+
+git add .把文件内容修改(modified)以及新文件(new)提交到暂存区，但不包括被删除的文件。
+
+git add -u把修改的文件提交到暂存区。add -u 不会提交新文">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git常用命令">
+<meta property="og:url" content="http://yoursite.com/2017/02/21/git常用命令/index.html">
 <meta property="og:site_name" content="Ryan Site">
-<meta property="og:description" content="do it">
+<meta property="og:description" content="Git的基本用法：前言：想了解git可点击这里1.git init把当前的目录变成git仓库（git初始化）   
+2.git add XX把xx文件添加到暂存区多个文件则 git add xx1 xx2 xx3
+
+git add .把文件内容修改(modified)以及新文件(new)提交到暂存区，但不包括被删除的文件。
+
+git add -u把修改的文件提交到暂存区。add -u 不会提交新文">
+<meta property="og:updated_time" content="2017-02-21T08:19:54.299Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ryan Site">
-<meta name="twitter:description" content="do it">
+<meta name="twitter:title" content="git常用命令">
+<meta name="twitter:description" content="Git的基本用法：前言：想了解git可点击这里1.git init把当前的目录变成git仓库（git初始化）   
+2.git add XX把xx文件添加到暂存区多个文件则 git add xx1 xx2 xx3
+
+git add .把文件内容修改(modified)以及新文件(new)提交到暂存区，但不包括被删除的文件。
+
+git add -u把修改的文件提交到暂存区。add -u 不会提交新文">
 
 
 
@@ -123,13 +139,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/02/21/git常用命令/"/>
 
 
 
 
 
-  <title> Ryan Site </title>
+  <title> git常用命令 | Ryan Site </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -154,9 +170,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -249,9 +263,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -284,10 +298,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/02/21/git常用命令/" itemprop="url">
-                  git常用命令
-                </a>
+                git常用命令
               
             
           </h1>
@@ -349,9 +360,7 @@
       
 
       
-        
-          
-            <h1 id="Git的基本用法："><a href="#Git的基本用法：" class="headerlink" title="Git的基本用法："></a>Git的基本用法：</h1><h2 id="前言：想了解git可点击这里"><a href="#前言：想了解git可点击这里" class="headerlink" title="前言：想了解git可点击这里"></a>前言：想了解git可<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" title="廖雪峰Git学习" target="_blank" rel="external">点击这里</a></h2><h3 id="1-git-init"><a href="#1-git-init" class="headerlink" title="1.git init"></a>1.git init</h3><p>把当前的目录变成git仓库（git初始化）   </p>
+        <h1 id="Git的基本用法："><a href="#Git的基本用法：" class="headerlink" title="Git的基本用法："></a>Git的基本用法：</h1><h2 id="前言：想了解git可点击这里"><a href="#前言：想了解git可点击这里" class="headerlink" title="前言：想了解git可点击这里"></a>前言：想了解git可<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" title="廖雪峰Git学习" target="_blank" rel="external">点击这里</a></h2><h3 id="1-git-init"><a href="#1-git-init" class="headerlink" title="1.git init"></a>1.git init</h3><p>把当前的目录变成git仓库（git初始化）   </p>
 <h3 id="2-git-add-XX"><a href="#2-git-add-XX" class="headerlink" title="2.git add XX"></a>2.git add XX</h3><p>把xx文件添加到暂存区<br>多个文件则 git add xx1 xx2 xx3</p>
 <ul>
 <li><p>git add .<br>把文件内容修改(modified)以及新文件(new)提交到暂存区，但不包括被删除的文件。</p>
@@ -402,39 +411,50 @@
 </ul>
 <h3 id="26-git-push-origin-master"><a href="#26-git-push-origin-master" class="headerlink" title="26.git push origin master"></a>26.git push origin master</h3><p> Git会把master分支推送到远程库对应的远程分支上</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag"># Git</a>
+          
+        </div>
+      
+
+      
+        
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -442,6 +462,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -461,8 +485,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -513,6 +546,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Git的基本用法："><span class="nav-number">1.</span> <span class="nav-text">Git的基本用法：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言：想了解git可点击这里"><span class="nav-number">1.1.</span> <span class="nav-text">前言：想了解git可点击这里</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-git-init"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.git init</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-git-add-XX"><span class="nav-number">1.1.2.</span> <span class="nav-text">2.git add XX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-git-commit-m-“说明”"><span class="nav-number">1.1.3.</span> <span class="nav-text">3.git commit -m “说明”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-git-status"><span class="nav-number">1.1.4.</span> <span class="nav-text">4.git status</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-git-diff-xxx"><span class="nav-number">1.1.5.</span> <span class="nav-text">5.git diff xxx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-git-log"><span class="nav-number">1.1.6.</span> <span class="nav-text">6.git log</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-git-rester-–hard-HEAD-或git-reset-–hard-HEAD"><span class="nav-number">1.1.7.</span> <span class="nav-text">7.git rester –hard HEAD^ 或git reset  –hard HEAD~</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-git-reflog"><span class="nav-number">1.1.8.</span> <span class="nav-text">8.git reflog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-git-checkout-–xx"><span class="nav-number">1.1.9.</span> <span class="nav-text">9.git checkout –xx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-git-rm-xx"><span class="nav-number">1.1.10.</span> <span class="nav-text">10.git rm xx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-git-remote-add-origin-URL"><span class="nav-number">1.1.11.</span> <span class="nav-text">11.git remote add origin URL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-git-push-–u-第一次要用-u-以后不需要-origin-master"><span class="nav-number">1.1.12.</span> <span class="nav-text">12.git push –u(第一次要用-u 以后不需要) origin master</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-git-clone-URL"><span class="nav-number">1.1.13.</span> <span class="nav-text">13.git clone URL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-git-checkout-–b-dev"><span class="nav-number">1.1.14.</span> <span class="nav-text">14.git checkout –b dev</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-git-branch"><span class="nav-number">1.1.15.</span> <span class="nav-text">15.git branch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-git-checkout-master"><span class="nav-number">1.1.16.</span> <span class="nav-text">16.git checkout master</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-git-merge-dev"><span class="nav-number">1.1.17.</span> <span class="nav-text">17.git merge dev</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-git-branch-–d-dev"><span class="nav-number">1.1.18.</span> <span class="nav-text">18.git branch –d dev</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-git-branch-name"><span class="nav-number">1.1.19.</span> <span class="nav-text">19.git branch name</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#20-git-stash"><span class="nav-number">1.1.19.1.</span> <span class="nav-text">20.git stash</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-git-stash-list"><span class="nav-number">1.1.20.</span> <span class="nav-text">21.git stash list</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-git-stash-apply"><span class="nav-number">1.1.21.</span> <span class="nav-text">22.git stash apply</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-git-stash-drop"><span class="nav-number">1.1.22.</span> <span class="nav-text">23.git stash drop</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-git-stash-pop"><span class="nav-number">1.1.23.</span> <span class="nav-text">24.git stash pop</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25-git-remote"><span class="nav-number">1.1.24.</span> <span class="nav-text">25.git remote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#26-git-push-origin-master"><span class="nav-number">1.1.25.</span> <span class="nav-text">26.git push origin master</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -625,6 +674,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
